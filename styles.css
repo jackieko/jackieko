@@ -1,0 +1,263 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 0 0 0;
+}
+
+h2, h1, h3 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.nav-container {
+	width: 100%;
+}
+
+.nav-info {
+	width: 20%;
+	text-align: left;
+	font-size: 18px;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+/*.nav-info:nth-child(4n){
+	padding-left: 0;
+}*/
+
+.Home:hover{
+	opacity: 0.5;
+}
+
+.About:hover{
+	opacity: 0.5;
+}
+
+.Work:hover{
+	opacity: 0.5;
+}
+
+.contact:hover{
+	opacity: 0.5;
+}
+
+.intro-container {
+	width: 100%;
+	background-image: url('images/cover.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 725px; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.intro {
+	display: inline-block;
+	width: 1200px;
+}
+
+
+.header {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 38px;
+	text-transform: uppercase;
+	margin-left: 5%;
+	display: inline-block;
+	padding-left: 500px;
+	width: 40%;
+	height: 400px;
+	vertical-align: top;
+	padding-top: 100px;
+	text-align: right;
+	position: absolute;
+	font-weight: 300;
+}
+
+.about-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 450px;
+	padding-top: 30px;
+}
+
+.about-left{
+	display:inline-block;
+	width: 45%;
+	font-size: 200px;
+	font-weight: 100;
+	vertical-align: top;
+}
+
+.about-left img{
+	height: auto;
+	width: 250px;
+	padding-left: 400px;
+
+}
+
+.about-info h2{
+	font-style: italic;	
+	font-size: 30px;
+}
+
+.about-info{
+	padding: 20px 20px;
+	display: inline-block;
+	width: 45%;
+	text-align: right;
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+.about-container p{
+	font-size: 15px;
+	line-height: 28px;
+}
+
+.video-container{
+	height: 400px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+
+.video-cells {
+	display:inline-block;
+	width: 30%;
+	padding-right: 1%;
+	padding-top: 40px;
+}
+
+.video-cells:nth-child(1n){
+	padding-left: 1%;
+}
+
+.video-cells iframe{
+	height: 225px;
+	width: 400px;
+}
+
+.photo-container{
+	height: 650px;
+}
+
+.photo{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.photo h1{
+	text-align: right;
+	padding-right: 80px;
+}
+
+.photo-cells{
+	display: inline-block;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.photo-cells img{
+	width: auto;
+	height: 250px;
+}
+
+
+.organizations-container{
+	height: 750px;
+}
+
+.org-container-header{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	width: 90%;
+	padding-left: 100px;
+}
+
+.cell-container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.org-col{
+	display:inline-block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 28%;
+	height: 400px;
+	padding-top: 20px;
+	padding-left: 4%;
+	line-height: 28px;
+	/*border: solid 1px;*/
+}
+
+.org-desc{
+	text-align: left;
+}
+
+
+.org-col img{
+	width: 300px;
+	height: auto;
+	padding-bottom: 40px;
+}
+
+.org-col:nth-child(3n) img{
+	width: 150px;
+	height: auto;
+}
+
+.contact-parallax{ 
+    background-image: url('images/uva.JPG');
+    height: 510px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-parallax-title{
+	height: 200px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 28px;
+}
+
+.contact-container{
+	width: 100%;
+	height: 220px;
+	background-color: rgb(240, 240, 240);
+}
+
+.contacts {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.contacts p{
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.links{
+	display: inline-block;
+	padding-top: 30px;
+	padding-right: 20px;
+	border-radius: round 1px;
+}
+
+.links:hover{
+	opacity: 0.5;
+}
+
